@@ -1,0 +1,352 @@
+body {
+   /*background-image: url("/home/dfatrickz/Desktop/Website-1/IMG/space1.jpeg"); */  
+    background-color: white;
+}
+
+
+h1 {
+     color: red;
+     text-align: center;
+}	
+
+
+
+
+ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+     border-radius: 25px;
+     float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 6px 8px;
+    text-decoration: none;
+    
+}
+
+li {
+      float: left;
+
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+
+.videoframe {
+       position: relative;
+       display: inline-block;
+       border: 2px solid white;
+       background: white;
+       height: 330px;
+       width: 220px;
+       border-radius: 4px;
+       left: 0px;
+       top: 0px;
+       margin: 10px;
+       box-shadow: -1px 5px 10px 5px;
+}
+
+
+
+
+
+img {
+     position: relative;
+     height: 150px;
+     width: 150px;
+     margin: 0px;
+     top: 25px;
+     left: 30px;
+     
+}
+
+.textBox {
+      width: 210px;
+      height: 100px;
+      position: relative;
+      top: 150px;
+      left: 0px;
+      margin: 0px;
+      border: 0px solid red;
+      border-radius: 5px;
+      
+
+}
+
+.innerText {
+        position: relative;
+        left: 19px;
+        top: -100px;
+        font-size: 13px;
+        
+} 
+
+.buyButton {
+    position: relative;
+    top: 35px;
+    left: 6px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.infoButton {
+    position: relative;
+    top: 35px;
+    left: 8px;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.wrapper {
+       position: relative;
+       display: inline-block;
+       border: 5px solid red;
+       height: auto;
+       width: 750px;
+       border-radius: 0px;
+       top: 0px;
+       left: 255px;
+       margin: 10px;
+}
+
+.itemWrapper {
+       position: relative;
+       display: inline-block;
+       border: 5px solid red;
+       height: auto;
+       width: 1200px;
+       border-radius: 0px;
+       top: 0px;
+       left: 25px;
+       margin: 10px;
+}
+
+.footer1 { 
+      position: relative;
+      top: auto;
+      height: 50px;
+      background-color: black;
+      margin: 10px;
+
+}
+
+.sidenav {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 25px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}   
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.priceTag {
+      width: auto;
+      height: 20px;
+      position: absolute;
+      top: 2px;
+      left: 175px;
+      margin: 0px;
+      border: 0px solid red;
+      border-radius: 3px;
+      background-color: lightgray;
+      box-shadow: 0px 0px 1px 1px;
+}
+.priceTagstyle {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        font-size: 13px;
+        text-align: center;
+}
+
+.launchProductIMG {
+     position: relative;
+     height: 300px;
+     width: 300px;
+     margin: 0px;
+     top: 25px;
+     left: 30px;
+     
+}
+
+.line1 {
+       position: relative;
+       display: inline-block;
+       border: 0px solid lightgray;
+       height: 2px;
+       width: 1100px;
+       border-radius: 0px;
+       top: 40px;
+       left: 25px;
+       margin: 10px;
+       background-color: lightgray;
+       box-shadow: 1px 1px 1px 0px;
+       
+}
+
+productSpec, td, th {    
+    border-left: 0px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 800px
+}
+
+productSpec {
+  
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    
+}
+
+th {
+    background-color: lightgrey;
+}
+.productInformation {
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 450px;
+    font-size: 20px;
+  
+}
+
+.productInfoBox {
+       position: relative;
+       display: inline-block;
+       border: 2px solid red;
+       
+       height: auto;
+       width: 1175px;
+       border-radius: 4px;
+       left: 0px;
+       top: 0px;
+       margin: 10px;
+}
+
+
+
+.spacePlanet {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    top: -1px;
+    margin: 0px;
+}
+
+.productDescription {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    font-size: 13px;
+    
+}
+
+.productdescBox {
+      position: relative;
+    display: inline-block;
+    border: 5px solid black;
+    height: 125px;
+    top: 0px;
+    margin: 10px;
+}
+
+.Includes {
+    position: 
+    font-size: 13px;
+    top: 2px;
+}
+
+.IncludesBox {
+    position: relative;
+    display: inline-block;
+    border: 5px solid red;
+    height: auto;
+    top: 0px;
+    margin: 10px;
+}
+
+
+.productlaunchContentIMG {
+    position: absolute;
+    display: inline-block;
+    height: 360px;
+    width: 360px;
+    left: 760px;
+    top: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Start of slider CSS */
+
+
+/* end of slider CSS */
